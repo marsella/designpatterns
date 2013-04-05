@@ -1,7 +1,7 @@
 public abstract class Duck {
   
   FlyBehavior flyBehavior;
-//  QuackBehavior quackBehavior;
+  QuackBehavior quackBehavior;
   public Duck() {}
 
   public abstract void display();
@@ -10,11 +10,9 @@ public abstract class Duck {
     flyBehavior.fly();
   }
 
-/*
   public void performQuack() {
     quackBehavior.quack();
   }
-*/
 
   public void swim() {
     System.out.println("All ducks can swim");
